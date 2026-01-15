@@ -180,15 +180,16 @@ const Button = defineComponent({
 
 .display {
   background: #f0f0f0;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   text-align: right;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 4px;
   min-height: 3rem;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
 }
 
 .buttons {
@@ -196,14 +197,14 @@ const Button = defineComponent({
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 1fr);
   gap: 0.5rem;
-  aspect-ratio: 1;
+  aspect-ratio: 1.6;
 }
 
 .button {
   padding: 0;
   font-size: 1.5rem;
   font-weight: bold;
-  border-radius: 8px;
+  border-radius: 4px;
   border: none;
   cursor: pointer;
   background-color: #e0e0e0;
