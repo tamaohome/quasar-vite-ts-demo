@@ -1,10 +1,10 @@
+<script setup lang="ts"></script>
+
 <template>
   <q-card v-bind="$attrs" class="custom-rounded-card q-pa-lg">
     <slot />
   </q-card>
 </template>
-
-<script setup lang="ts"></script>
 
 <style scoped lang="scss">
 .custom-rounded-card {
