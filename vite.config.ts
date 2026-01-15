@@ -6,6 +6,8 @@ import { quasar, transformAssetUrls } from "@quasar/vite-plugin";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: command === "build" ? "/quasar-vite-ts-demo/" : "/",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
