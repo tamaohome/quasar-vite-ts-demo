@@ -1,5 +1,49 @@
-# Vue 3 + TypeScript + Vite
+# Quasar + Vite + TypeScript デモアプリ
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Quasar、Vite、TypeScript を使用した Vue 3 デモアプリケーションです。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 技術スタック
+
+- **Vue 3** - UI フレームワーク
+- **Quasar Framework** - Quasar コンポーネントライブラリ
+- **Vite** - 高速なビルドツール
+- **TypeScript** - 型安全性
+
+## セットアップ
+
+### 前提条件
+
+- Node.js 16 以上
+- npm
+
+### インストール
+
+```bash
+npm install
+```
+
+## スクリプト
+
+### 開発サーバーの起動
+
+```bash
+npm run dev
+```
+
+ブラウザで http://localhost:5173 にアクセスしてください。
+
+### プロダクションビルド
+
+```bash
+npm run build
+```
+
+### ビルド結果のプレビュー
+
+```bash
+npm run preview
+```
+
+## ライセンス
+
+MIT
