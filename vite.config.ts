@@ -5,7 +5,7 @@ import path from "path";
 import { quasar, transformAssetUrls } from "@quasar/vite-plugin";
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   base: command === "build" ? "/quasar-vite-ts-demo/" : "/",
 
   resolve: {
@@ -30,4 +30,4 @@ export default defineConfig({
     outDir: "dist",
     sourcemap: false,
   },
-});
+}));
