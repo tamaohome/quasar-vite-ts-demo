@@ -16,7 +16,11 @@ export default defineConfig(({ command }) => ({
 
   plugins: [
     vue({
-      template: { transformAssetUrls },
+      template: {
+        transformAssetUrls: {
+          img: ["src"],
+        },
+      },
     }),
 
     // @quasar/plugin-vite options list:
