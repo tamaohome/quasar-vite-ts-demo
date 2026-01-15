@@ -28,30 +28,12 @@ const backgroundType = ref<BackgroundType>(BackgroundType.Color);
     <div class="color-setting">
       <q-color v-model="backgroundColor" flat no-footer class="color-picker" />
     </div>
-    <div class="color-setting">
-      <label class="setting-label">Type</label>
-      <q-option-group
-        v-model="backgroundType"
-        :options="[
-          { label: 'Color', value: BackgroundType.Color },
-          { label: 'Border', value: BackgroundType.Border },
-        ]"
-        color="primary"
-        inline
-      />
-    </div>
   </Card>
 </template>
 
 <style scoped>
 .card {
   margin-bottom: 1rem;
-}
-
-.settings {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
 .color-setting {
@@ -74,10 +56,5 @@ const backgroundType = ref<BackgroundType>(BackgroundType.Color);
 /* カラーピッカーの縦横比を変更 */
 .color-picker ::v-deep .q-color-picker__spectrum > div:first-child {
   padding-bottom: 50% !important;
-}
-
-.setting-label {
-  font-weight: bold;
-  min-width: 80px;
 }
 </style>
