@@ -11,5 +11,6 @@
   border-radius: 12px !important;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 520px;
 }
 </style>
