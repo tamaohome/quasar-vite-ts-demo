@@ -23,4 +23,9 @@ export default defineConfig({
       sassVariables: fileURLToPath(new URL("./src/quasar-variables.sass", import.meta.url)),
     }),
   ],
+
+  build: {
+    outDir: "dist",
+    sourcemap: false,
+  },
 });
