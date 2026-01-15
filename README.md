@@ -2,6 +2,8 @@
 
 Quasar、Vite、TypeScript を使用した Vue 3 デモアプリケーションです。
 
+https://tamaohome.github.io/quasar-vite-ts-demo/
+
 ## 技術スタック
 
 - **Vue 3** - UI フレームワーク
