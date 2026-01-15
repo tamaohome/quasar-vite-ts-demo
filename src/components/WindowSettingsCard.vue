@@ -43,18 +43,18 @@ const backgroundType = ref<BackgroundType>(BackgroundType.Color);
   width: 100%;
 }
 
-.color-picker :deep(*) {
+.color-picker ::v-deep {
   max-width: none !important;
   width: 100%;
 }
 
 /* RGB/HEXタブを無効化 */
-.color-picker :deep(.q-tabs) {
+.color-picker ::v-deep .q-tabs {
   display: none;
 }
 
 /* カラーピッカーの縦横比を変更 */
-.color-picker :deep(.q-color-picker__spectrum > div:first-child) {
+.color-picker ::v-deep .q-color-picker__spectrum > div:first-child {
   padding-bottom: 50% !important;
 }
 </style>
